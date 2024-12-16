@@ -1,0 +1,146 @@
+.buttonModalWindow {
+	width: 280px;
+	height: 64px;
+	background-color: transparent;
+	border: 2px solid #b4b4b4;
+	border-radius: 16px;
+	font-size: 16px;
+	font-family: 'Inter', serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-weight: bold;
+	color: #333333;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.buttonModalWindow:hover {
+	background-color: #b4b4b4;
+}
+
+.buttonModalWindow:focus {
+	background-color: #b4b4b4;
+}
+
+.modalDiv {
+	width: 1280px;
+	height: 296px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 120px;
+}
+
+.mainDiv {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-direction: column;
+	padding-top: 1%;
+}
+
+.headerFont {
+	font-size: 40px;
+	font-family: 'Inter', serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-weight: bold;
+	color: #31393c;
+}
+
+.buttonDiv {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 32px;
+}
+
+.applyButton {
+	width: 280px;
+	height: 64px;
+	min-height: 64px;
+	background-color: #ff5f00;
+	border-radius: 16px;
+	font-size: 16px;
+	font-family: 'Inter', serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.applyButton:hover {
+	background-color: #ff5f00;
+	opacity: 50%;
+}
+
+.modalDivFilter {
+	max-height: 90vh;
+	overflow-y: auto;
+	scrollbar-width: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.customLine {
+	width: 1212px;
+	border: 1px solid #b4b4b4;
+	margin: 20px 0;
+}
+
+.infoDiv {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-direction: column;
+	max-width: 1212px;
+	gap: 25px;
+}
+
+.nameText {
+	font-size: 24px;
+	font-family: 'Inter', serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-weight: bold;
+	color: #31393c;
+}
+
+.optionDiv {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 40px;
+	max-width: 500px;
+	flex-wrap: wrap;
+	padding-left: 8px;
+}
+
+.checkboxOption {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin: 5px 0;
+}
+
+input[type='checkbox'] {
+	transform: scale(1.2);
+	cursor: pointer;
+}
+
+.optionText {
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.dataDiv {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 20px;
+}
